@@ -2,8 +2,8 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(./fuentes/MaterialIconsOutlined-Regular.otf); 
-  src: url(./fuentes/MaterialIcons-Regular.ttf);
+  src: url(MaterialIconsOutlined-Regular.otf); 
+  src: url(MaterialIcons-Regular.ttf);
   src: local('Material Icons'),
     local('MaterialIcons-Regular'),
     /*url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
