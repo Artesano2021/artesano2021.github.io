@@ -1,19 +1,223 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--<link rel="stylesheet" href="responsive.css">-->
+  <script src="nav.js"></script>
+  <title>MyDINT</title>
 </head>
-<header>
-    <h1>Diseño de interfaces web</h1>
-<nav>
-    <ul>
-        <li><a href="Herramientas firefox.pdf">Tema general. Herramientas firefox</a></li>
-        <li><a href="tema1.html">Tema 1. Planificación de interfaces gráficas</a></li>
-        <li><a href="tema2.html">Tema 2. Uso de estilos</a></li>
-        <li><a href="">Tema 3. Implantación de contenido multimedia</a></li>
-        <li><a href="">Tema 4. Planificación de interfaces gráficas</a></li>
-        <li><a href="">Tema 5. Planificación de interfaces gráficas</a></li>
-    </ul>
-</nav>
-    <button><a href="https://www.educa.jcyl.es">Volver al aula virtual</button>
-</header>
+
+<body>
+  <nav class="brown darken-4" role="navigation"><!--En class definimos el color-->
+    <div class="nav-wrapper container nav">
+      <div class="main-container">
+        <a id="logo-container" href="index.html" class="brand-logo"> <img class="logo-nav" src="./img/yo1.jpg" />MyDINT</a>
+      </div>
+
+      <ul class="right hide-on-med-and-down"><!--Esta clase es para que cuando sea responsive se oculte-->
+        <li><a href="./tema1/tema1.html">Tema 1</a></li>
+        <li><a href="./tema2/tema2.html">Tema 2</a></li>
+        <li><a href="./tema3/tema3.html">Tema 3</a></li>
+        <li><a href="#">Tema 4</a></li>
+        <li><a href="#">Tema 5</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="./tema1/tema1.html">Tema 1</a></li>
+        <li><a href="./tema2/tema2.html">Tema 2</a></li>
+        <li><a href="./tema3/tema3.html">Tema 3</a></li>
+        <li><a href="#">Tema 4</a></li>
+        <li><a href="#">Tema 5</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="flex-container">
+    <div class="carta">
+      <div class="cabecera">
+        <div class="icono">
+          <img class="circular--square" src="./img/yo1.jpg" />
+        </div>
+        <div class="titulo">
+          <h1 class="h1">Firefox</h1>
+        </div>
+      </div>
+      <div class="multimedia">
+        <img src="https://www.mozilla.org/media/img/firefox/template/page-image-master.1b6efe3d5631.jpg">
+      </div>
+      <div class="info">
+        <p>
+
+        </p>
+      </div>
+      <div class="botonera">
+        <a href="Herramientas firefox.pdf"><button mat-button><i class="bi-search"></i></button></a>
+      </div>
+    </div>
+    <div class="carta">
+      <div class="cabecera">
+        <div class="icono">
+          <img class="circular--square" src="./img/yo1.jpg" />
+        </div>
+        <div class="titulos">
+
+          <div class="titulo">
+            <h1 class="h1">Tema 1</h1>
+          </div>
+         <!-- <div class="subtitulo">
+            <h4 class="h4">Planificación de interfaces gráficas</h4>
+          </div>-->
+        </div>
+      </div>
+      <div class="multimedia">
+        <img src="https://ecdisis.com/wp-content/uploads/2020/10/%C2%BFQue-es-una-Interfaz-de-usuario_.png">
+      </div>
+      <div class="info">
+        <p>
+
+        </p>
+      </div>
+      <div class="botonera">
+        <a href="./tema1/tema1.html"><button mat-button><i class="bi-search"></i></button></a>
+      </div>
+    </div>
+    <div class="carta">
+      <div class="cabecera">
+        <div class="icono">
+          <img class="circular--square" src="./img/yo1.jpg" />
+        </div>
+        <div class="titulo">
+          <h1 class="h1">Tema 2</h1>
+        </div>
+        <!--<div class="subtitulo">
+          <h4 class="h4" >Uso de estilos</h4>
+        </div>-->
+      </div>
+      <div class="multimedia">
+        <img src="https://www.eniun.com/wp-content/uploads/Co%CC%81mo-aplicar-estilos-CSS-en-un-documento-HTML.png">
+      </div>
+      <div class="info">
+        <p>
+
+        </p>
+      </div>
+      <div class="botonera">
+        <a href="./tema2/tema2.html"><button mat-button><i class="bi-search"></i></button></a>
+      </div>
+    </div>
+    <div class="carta">
+      <div class="cabecera">
+        <div class="icono">
+          <img class="circular--square" src="./img/yo1.jpg" />
+        </div>
+        <div class="titulo">
+          <h1 class="h1">Tema 3</h1>
+        </div>
+        <!--<div class="subtitulo">
+          <h4 class="h4">Implementación multimedia</h4>
+        </div>-->
+      </div>
+      <div class="multimedia">
+        <img src="https://blog.mi.com.co/wp-content/uploads/2022/01/portada-18-de-enero-micomco.png">
+      </div>
+      <div class="info">
+        <p>
+
+        </p>
+      </div>
+      <div class="botonera">
+        <a href="./tema3/tema3.html"><button mat-button><i class="bi-search"></i></button></a>
+      </div>
+    </div>
+    <div class="carta">
+      <div class="cabecera">
+        <div class="icono">
+          <img class="circular--square" src="./img/yo1.jpg" />
+        </div>
+        <div class="titulo">
+          <h1 class="h1">Tema 4</h1>
+        </div>
+       <!-- <div class="subtitulo">
+          <h4 class="h4">Implementación de webs accesibles</h4>
+        </div>-->
+      </div>
+      <div class="multimedia">
+        <img
+          src="https://www.dreamhost.com/blog/wp-content/uploads/2021/07/36747b6c-9d24-4105-9e58-85696aae15e4_web-accessibility-examples-opt.jpg">
+      </div>
+      <div class="info">
+        <p>
+
+        </p>
+      </div>
+      <div class="botonera">
+        <a href="#"><button mat-button><i class="bi-search"></i></button></a>
+      </div>
+    </div>
+    <div class="carta">
+      <div class="cabecera">
+        <div class="icono">
+          <img class="circular--square" src="./img/yo1.jpg" />
+        </div>
+        <div class="titulo">
+          <h1 class="h1">Tema 5</h1>
+        </div>
+        <!--<div class="subtitulo">
+          <h4 class="h4">Implementación de usabilidad en la web</h4>
+        </div>-->
+      </div>
+      <div class="multimedia">
+        <img src="https://i.workana.com/wp-content/uploads/2020/01/usabilidad-workana-glosario-850x400.jpg">
+      </div>
+      <div class="info">
+        <p>
+
+        </p>
+      </div>
+      <div class="botonera">
+        <a href="#"><button mat-button><i class="bi-search"></i></button></a>
+      </div>
+    </div>
+  </div>
+  <button><a href="https://www.educa.jcyl.es">Volver al aula virtual</button>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</body>
+
 </html>
+
+<!--
+  <div class="card1">
+      <div class="header">
+        <div class="icono">
+          <img class="circular--square" src="./img/yo1.jpg" />
+        </div>
+        <div class="titulo">
+          <h1>Tema 5</h1>
+        </div>
+      </div>
+      <div class="multimedia">
+          <img src="https://i.workana.com/wp-content/uploads/2020/01/usabilidad-workana-glosario-850x400.jpg">  
+      </div>
+      <div class="info">
+        <p>
+         <a href="tema5.html">Implementación de usabilidad en la web</a>
+        </p>
+      </div>
+      <div class="botonera">
+        <button mat-button><i class="bi-hand-thumbs-up-fill"></i></button>
+        <button mat-button><i class="bi-hand-thumbs-down-fill"></i></button>
+      </div>
+  </div>
+-->

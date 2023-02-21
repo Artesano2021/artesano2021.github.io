@@ -1,0 +1,72 @@
+$primario: #1976d2;
+$textNav: white;
+$principal: rgb(105, 105, 105);
+
+.container{
+  background-color:$primario;
+
+  justify-content: flex-start;
+  ul{
+    list-style: none;
+  }
+  li{
+    background-color: aqua;
+  }
+}
+
+.principal{
+  background-color: $principal;
+}
+.containerMain{
+  background-color: $principal;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+li{
+  margin: 3px;
+  padding: 3px;
+}
+
+.logo{
+  width: 100px;
+}
+
+body{
+  
+  flex-wrap:wrap;
+  flex-direction: row-reverse;
+}
+
+.containerAside{
+  display:flex;
+  flex-direction: column;
+  }
+  
+.igmAside{
+  width:300px;
+  height:250px;
+}
+
+footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+/*
+.main{
+flex-direction:row;
+}
+
+*/
+

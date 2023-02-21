@@ -1,0 +1,158 @@
+.cabecera{
+    display: flex;
+}
+
+header{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: #4b2c20;
+}
+
+body{
+    background-color: #ffd0b0;
+}
+
+.tituloC{
+    color: #fff9c4;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-top: 92px;
+}
+
+.flex-container>div{
+    background-color: #4b2c20;
+    margin: 3px;  
+    
+}
+
+
+.flex-container>div>div>img{
+    width: 662px;
+    height: 400px;
+    background-color: #4b2c20;
+}
+
+.flex-container>div>div>video{
+    width: 662px;
+    height: 400px;
+    background-color: #4b2c20;
+}
+
+.flex-container>div>div>p{
+    margin-top: 310px;
+    background-color: #4b2c20;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.flex-container>div>div{
+    width: 650px;
+    height: 100px;
+    background-color: #4b2c20;
+}
+
+
+.h1{
+    color: #fff9c4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white
+}
+
+
+button{
+    background-color: #ff9e80;
+    color: #c96f53;
+    width:638px; height:75px
+}
+
+.circular--squareH {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+
+  .circular--square {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+
+  .circular--square-nav {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+
+  .titulo{
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+
+
+  .botonera{
+   margin-left: 12px;
+  }
+
+  .titulos{
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+  
+/*Prueba*/
+
+.header img{
+    transition: .2s;
+}
+
+.botonera :hover button{
+    box-shadow: 0 0 0 12px rgb(219, 125, 88);
+}
+
+
+
+/*Cabecera*/
+
+nav{
+  height: 82px;
+}
+
+.logo-nav {
+  margin-right: 12px;
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.sidenav{
+  background-color: #a98274;
+}
+
+
+a{
+  color:#fff9c4
+}
+
+  .main-container{
+    margin-right: 12px;
+  }
+
+  .multimedia{
+    margin-top: 32px;
+  }

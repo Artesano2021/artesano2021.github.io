@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="materialize.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Componentes</title>
+</head>
+
+<body>
+    <nav class="brown darken-4" role="navigation"><!--En class definimos el color-->
+        <div class="nav-wrapper container nav">
+          <div class="main-container">
+            <a id="logo-container" href="...responsive.html" class="brand-logo"> <img class="logo-nav" src="./img/yo1.jpg" />MyDINT</a>
+          </div>
+    
+          <ul class="right hide-on-med-and-down"><!--Esta clase es para que cuando sea responsive se oculte-->
+            <li><a href="../tema1.html">Volver a Tema 1</a></li>
+          </ul>
+    
+          <ul id="nav-mobile" class="sidenav">
+            <li><a href="../tema1.html">Volver a tema 1</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    <div class="documentacion">
+        <h3>Documentación</h3>
+        <div class="flex-container">
+            <div class="main">
+                <div class="header">
+                    <div class="icono">
+                        <img class="circular--square" src="./img/yo1.jpg" />
+                    </div>
+                    <div class="titulos">
+                        <div class="titulo">
+                            <h1>Elementos web</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="multimedia">
+                    <img src="https://akus.b-cdn.net/imagenes/articulos/elementos-sitio-web.jpg">
+                </div>
+                <div class="info">
+                    <p>
+
+                    </p>
+                </div>
+                <div class="botonera">
+                    <a href="Elementos Web.pdf"><button mat-button><i class="bi-search"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="practica">
+        <h3>Práctica</h3>
+        <div class="flex-container">
+            <div class="main">
+                <div class="header">
+                    <div class="icono">
+                        <img class="circular--square" src="./img/yo1.jpg" />
+                    </div>
+                    <div class="titulos">
+                        <div class="titulo">
+                            <h1>Mis componentes</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="multimedia">
+                    <img
+                        src="https://blog.balsamiq.com/wp-content/uploads/2017/09/Balsamiq-Wireframes-Thumbnail-Final-0.png">
+                </div>
+                <div class="info">
+                    <p>
+
+                    </p>
+                </div>
+                <div class="botonera">
+                    <a href="Mis componentes.pdf"><button mat-button><i class="bi-search"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,79 @@
+@media screen and (max-width: 550px) {
+    .current{
+        display: flex;
+        flex-direction: row;
+    }
+    .infoTemp{
+        display: flex;
+        flex-direction: row;
+    }
+    .tempS{
+        display: flex;
+        flex-direction: column;
+    }
+    .temperatura{
+        display: flex;
+        flex-direction: row;
+    }
+    .descripcion{
+        margin-left: 30px;
+    }
+
+    .lunes, .martes, .miercoles, .jueves, .viernes, .sabado, .domingo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+  }
+
+  @media screen and (max-width: 609px) {
+    .current{
+        display: flex;
+        flex-direction: row;
+    }
+    .infoTemp{
+        display: flex;
+        flex-direction: row;
+    }
+    .temperatura{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .descripcion{
+        margin-left: 50px;
+    }
+    .lunes, .martes, .miercoles, .jueves, .viernes, .sabado, .domingo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    .temp2{
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (min-width: 610px) {
+    .descripcion{
+        margin-left: 80px;
+    }
+    .current{
+        display: flex;
+        flex-direction: row;
+    }
+    .sevenDay{
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+    }
+    .infoTemp{
+        display: flex;
+        flex-direction: row;
+    }
+    .tempS{
+        display: flex;
+        flex-direction: row;
+    }
+  }

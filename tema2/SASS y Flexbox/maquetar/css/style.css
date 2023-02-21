@@ -1,0 +1,75 @@
+header{
+  background-color: blueviolet;
+}
+.container {
+  background-color: #1976d2;
+  justify-content: flex-start;
+}
+.container ul {
+  list-style: none;
+}
+.container li {
+  background-color: aqua;
+}
+
+.principal {
+  background-color: rgb(105, 105, 105);
+}
+
+.containerMain {
+  background-color: rgb(105, 105, 105);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 3px;
+  padding: 3px;
+}
+
+.logo {
+  width: 100px;
+}
+
+body {
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.containerPrin{
+  display: flex;
+  flex-direction: row;
+}
+.containerAside {
+  display: flex;
+  flex-direction: column;
+}
+
+.igmAside {
+  width: 300px;
+  height: 250px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+  background-color: blueviolet;
+}
+
+/*
+.main{
+flex-direction:row;
+}
+
+*/
+
+/*# sourceMappingURL=style.css.map */

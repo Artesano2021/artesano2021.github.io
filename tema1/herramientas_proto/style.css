@@ -1,0 +1,136 @@
+.header{
+    display: flex;
+}
+
+body{
+    background-color: #ffd0b0;
+}
+
+h1{
+    color: #fff9c4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    color: #795548;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-evenly;
+    
+}
+
+.flex-container>div{
+    background-color: #795548;
+    margin: 3px;  
+    
+}
+
+.flex-container>div>div>img{
+    width: 662px;
+    height: 400px;
+    background-color: #795548;
+}
+
+.flex-container>div>div>video{
+  width: 662px;
+  height: 400px;
+  background-color: #795548;
+}
+
+.flex-container>div>div>p{
+  margin-top: 310px;
+  background-color: #795548;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.flex-container>div>div{
+  width: 650px;
+  height: 100px;
+  background-color: #795548;
+}
+
+
+.circular--square {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+
+  .titulos{
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+  .titulo{
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+
+  .cardInfo{
+    color: #ff9e80;
+  }
+.botonera{
+    margin-left: 12px;
+   }
+
+button{
+    background-color: #ff9e80;
+    color: #c96f53;
+    width:638px; height:75px
+}
+
+  .header{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  
+
+
+  .herramientas{
+    margin-top: 100px;
+  }
+
+  .practica{
+    margin-top: 100px;
+  }
+
+
+
+  /*Cabecera*/
+
+nav{
+  height: 82px;
+}
+
+.logo-nav {
+  margin-right: 12px;
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.sidenav{
+  background-color: #a98274;
+}
+
+.multimedia{
+  margin-top: 32px;
+}
+
+a{
+  color:#fff9c4
+}
