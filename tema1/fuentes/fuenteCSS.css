@@ -1,0 +1,53 @@
+.serif{
+    font-family: 'Playfair Display', serif;
+}
+
+.sans_serif{
+    font-family: 'Roboto', sans-serif;
+}
+
+.monoespaces{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.cursiva{
+    font-family: 'Fasthand', cursive;
+}
+
+.fantasia{
+    font-family: 'Dancing Script', cursive;
+}
+
+h1{
+    background-color: #4b2c20;
+    color: #fff9c4;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+  }
+
+  h2{
+    background-color: #c96f53;
+    color: black;
+    font-family: 'Gabriela', serif;
+  }
+
+  body{
+    background-color: #795548;
+  }
+
+  div{
+    background-color: #ffd0b0;
+  }
+
+  h3{
+    background-color: #ff9e80;
+    font-family: 'Gabriela', serif;
+  }
+
+  b{
+    font-family: 'Quattrocento Sans', sans-serif;
+  }
+
+  p{
+    font-family: 'Quattrocento Sans', sans-serif;
+  }

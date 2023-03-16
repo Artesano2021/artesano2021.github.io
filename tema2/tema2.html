@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="../css/sass.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Uso de estilos</title>
 </head>
@@ -18,7 +17,7 @@
     <nav class="brown darken-4" role="navigation"><!--En class definimos el color-->
         <div class="nav-wrapper container nav">
           <div class="main-container">
-            <a id="logo-container" href="../index.html" class="brand-logo"> <img class="logo-nav" src="./img/yo1.jpg" />MyDINT</a>
+            <a id="logo-container" href="../index.html.html" class="brand-logo"> <img class="logo-nav" src="../img/yo1.jpg" />MyDINT</a>
           </div>
     
           <ul class="right hide-on-med-and-down"><!--Esta clase es para que cuando sea responsive se oculte-->
@@ -26,7 +25,7 @@
             <li><a href="../tema2/tema2.html">Tema 2</a></li>
             <li><a href="../tema3/tema3.html">Tema 3</a></li>
             <li><a href="#">Tema 4</a></li>
-            <li><a href="#">Tema 5</a></li>
+            <li><a href="../tema recu/recu.html">Recuperación</a></li>
           </ul>
     
           <ul id="nav-mobile" class="sidenav">
@@ -34,7 +33,7 @@
             <li><a href="../tema2/tema2.html">Tema 2</a></li>
             <li><a href="../tema3/tema3.html">Tema 3</a></li>
             <li><a href="#">Tema 4</a></li>
-            <li><a href="#">Tema 5</a></li>
+            <li><a href="../tema recu/recu.html">Recuperación</a></li>
           </ul>
           <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
@@ -43,6 +42,31 @@
         <h1>Tema 2. Uso de estilos</h1>
     </header>
     <div class="flex-container">
+        <div class="Materialize">
+            <div class="header">
+                <div class="icono">
+                    <img class="circular--square" src="./img/yo1.jpg" />
+                </div>
+                <div class="titulos">
+
+                    <div class="titulo">
+                        <h1 class="h1">Materialize</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="multimedia">
+                <img
+                    src="https://front.id/sites/default/files/2017-05/materialize.png">
+            </div>
+            <div class="info">
+                <p>
+                    <a href="./parallax-template/index.html">Prueba de materialize</a>
+                </p>
+            </div>
+            <div class="botonera">
+                <a href="https://materializecss.com/"><button mat-button><i class="bi-search"></i></button></a>
+            </div>
+        </div>
         <div class="Manejo de SASS y flexbox">
             <div class="header">
                 <div class="icono">
@@ -116,8 +140,31 @@
                             class="bi-search"></i></button></a>
             </div>
         </div>
+        <div class="Query">
+            <div class="header">
+              <div class="icono">
+                <img class="circular--square" src="./img/yo1.jpg" />
+              </div>
+              <div class="titulos">
+    
+          <div class="titulo">
+                <h1 class="h1">Imágenes query</h1>
+              </div>
+            </div>
+            </div>
+            <div class="multimedia">
+                <img src="https://th.bing.com/th/id/R.f1e302924dc197efaf19c63b4756c773?rik=sD5asoETUGdz6w&riu=http%3a%2f%2fimages.all-free-download.com%2fimages%2fgraphicthumb%2fquery_70705.jpg&ehk=uj3u2ksetIRvr4LJD5t2Xl4d6PbWWO2s1MdPFA43PJA%3d&risl=&pid=ImgRaw&r=0">  
+            </div>
+            <div class="info">
+              <p>
+              
+              </p>
+            </div>
+            <div class="botonera">
+              <a href="./queryImagen/index.html"><button mat-button><i class="bi-search"></i></button></a>
+            </div>
+           </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>

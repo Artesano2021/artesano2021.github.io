@@ -1,0 +1,2 @@
+Primario: #e3f2fd blue lighten-5
+Secundario: #fce4ec pink lighten-5

@@ -30,10 +30,12 @@ h4{
 }
 
 .flex-container>div{
-    background-color: #795548;
-    margin: 3px;  
-    
+  margin-top: 82px;
+  background-color: #795548;
+  margin: 3px;  
+  box-shadow: 6px 20px 10px rgb(187, 128, 89);
 }
+
 
 .flex-container>div>div>img{
     width: 662px;
